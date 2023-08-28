@@ -31,3 +31,31 @@ a) Dibujar el árbol de parseo de las siguientes expresiones
 -- |
 -- 1
 
+-- 2)  (99 + 4 ∗ y ∗ (x − 678))
+--        E
+--        |
+--        Ep
+--        |
+--       (E)
+--     /  |  \
+--    E   +      E
+--    |       /  |  \
+--    Ep      E  *     E
+--    |       |      /  |  \
+--    I       Ep    E   *   E
+--    |       |     |       |
+--    DI      I     Ep      Ep
+--   /  \     |     |        |
+--  D    I    D     V        (E)
+--  |    |    |     |       /  |  \
+--  9    D    4     Y      E   -   E
+--       |                 |       |
+--       9                 Ep      I
+--                         |       |
+--                         V       DI
+--                         |      /  \
+--                         X     6    DI
+--                                   /  \
+--                                  7    D
+--                                       |
+--                                       8
