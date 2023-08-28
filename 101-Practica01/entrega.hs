@@ -59,3 +59,20 @@ a) Dibujar el árbol de parseo de las siguientes expresiones
 --                                  7    D
 --                                       |
 --                                       8
+
+-- 3)  69 ∗ x − z
+--           E
+--        /  |  \
+--       E   -   E
+--       |       |
+--       E       Ep
+--    /  |  \     |
+--   Ep  *  Ep    V
+--   |      |     |
+--   I      V     z
+--   |      |
+--   DI     x
+--  /  \
+-- 6    D
+--      |
+--      9
