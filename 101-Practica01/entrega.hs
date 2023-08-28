@@ -76,3 +76,7 @@ a) Dibujar el árbol de parseo de las siguientes expresiones
 -- 6    D
 --      |
 --      9
+
+-- 4)  −1
+-- no se puede hacer porque no tengo un el elemento vacio, mas alla que esa expresion se entienda en matematica como
+-- 0 + 1, en verdad lo que se esta representando es (elemento nulo) + 1
